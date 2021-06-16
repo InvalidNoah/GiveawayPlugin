@@ -1,7 +1,7 @@
 name: GiveawayPlugin
 main: EmangGek\GiveawayPlugin\GiveawayPlugin
 version: 1.0
-api: 3.21.0
+api: 3.5.0
 author: EmangGek
 description: "A Plugin for adding giveaway on your server"
 
