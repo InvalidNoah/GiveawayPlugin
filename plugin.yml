@@ -1,0 +1,31 @@
+name: GiveawayPlugin
+main: EmangGek\GiveawayPlugin\GiveawayPlugin
+version: 1.0
+api: 3.21.0
+author: EmangGek
+description: "A Plugin for adding giveaway on your server"
+
+commands:
+    glist:
+        description: "Show the giveaway list"
+        usage: "/glist"
+        permission: giveawayplugin.list
+    gcreate:
+        description: "Create a giveaway"
+        usage: "/gcreate"
+        permission: giveawayplugin.create
+    gend:
+        description: "End a giveaway"
+        usage: "/gend"
+        permission: giveawayplugin.end
+
+permissions:
+    giveawayplugin.list:
+        description: "Allows the user to see the giveaways"
+        default: true
+    giveawayplugin.create:
+        description: "Allows the user to create a giveaway"
+        default: op
+    giveawayplugin.end:
+        description: "Allows the user to end a giveaway"
+        default: op

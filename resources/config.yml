@@ -1,0 +1,11 @@
+# New Giveaway Message
+new-giveaway-message: "New Giveaway! Check it at /glist"
+
+# Entered Giveaway
+entered-giveaway: "You have entered the giveaway"
+
+# Leave Giveaway
+leave-giveaway: "You're out of the giveaway"
+
+# Winner Message ({plr} = player name, {ga} = giveaway name)
+winner-message: "{plr} just win {ga}!"
